@@ -31,7 +31,7 @@ function readLine() {
 
 function findDigits(n) {
     // Write your code here
-    let result = [];
+    let result = 0;
     let numberArray = n.toString().split('');
 
     for(let i = 0; i < numberArray.length; i++) {
